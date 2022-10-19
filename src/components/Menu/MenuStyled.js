@@ -20,7 +20,7 @@ const MenuStyled = ({ open }) => (
             </a>
 
             <a
-              href="/"
+              href="/Portfolio"
               class="block px-4 py-4 text-lg leading-5 text-gray-700 font-semibold hover:bg-cyan-50 hover:pl-8 hover:text-red-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900"
               role="menuitem"
             >
@@ -28,7 +28,7 @@ const MenuStyled = ({ open }) => (
             </a>
 
             <a
-              href="/"
+              href="/Contact"
               class="block px-4 py-4 text-lg leading-5 text-gray-700 font-semibold hover:bg-cyan-50 hover:pl-8 hover:text-red-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900"
               role="menuitem"
             >
@@ -36,7 +36,7 @@ const MenuStyled = ({ open }) => (
             </a>
 
             <a
-              href="/"
+              href="/Resume"
               class="block px-4 py-4 text-lg leading-5 text-gray-700 font-semibold hover:bg-cyan-50 hover:pl-8 hover:text-red-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900"
               role="menuitem"
             >

@@ -1,9 +1,8 @@
 import * as React from "react";
 import Header from "../components/Header/Header.js";
-import About from "../components/About/About.js";
 import Footer from "../components/Footer/Footer.js";
 
-const IndexPage = () => {
+const Resume = () => {
   return (
     <main class="bg-sky-100">
       <style>
@@ -32,8 +31,14 @@ const IndexPage = () => {
         </div>
       </header>
 
-      <div>
-        <About />
+      <div class="container mx-auto flex justify-center bg-white pt-20 pb-10">
+        <h1 class="text-xl text-center font-semibold">Thank You!</h1>
+      </div>
+      <div class="container mx-auto flex justify-center bg-white px-40">
+        <p>Your message has been sent. </p>
+      </div>
+      <div class="container mx-auto flex justify-center bg-white pb-20">
+        <p>I will get back to you soon.</p>
       </div>
 
       <div>
@@ -43,4 +48,4 @@ const IndexPage = () => {
   );
 };
 
-export default IndexPage;
+export default Resume;

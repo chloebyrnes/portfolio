@@ -9,7 +9,7 @@ const HeaderStyled = ({ open, setOpen }) => {
           <button
             type="button"
             onClick={() => setOpen(!open)}
-            class="mr-4 inline-flex items-center justify-center rounded-md text-white hover:text-gray-200"
+            class="mr-4 inline-flex items-center justify-center rounded-md text-edward hover:text-emmett"
             id="close"
             aria-haspopup="true"
             aria-expanded="true"
@@ -27,7 +27,7 @@ const HeaderStyled = ({ open, setOpen }) => {
             aria-haspopup="true"
             aria-expanded="true"
           >
-            <p class="text-xl pr-10">Menu</p>
+            <p class="text-xl pr-10 font-semibold">Menu</p>
           </button>
         </span>
       )}

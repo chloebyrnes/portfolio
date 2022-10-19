@@ -3,13 +3,13 @@ import * as React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer class="bg-gray-500">
+      <footer class="bg-sky-900">
         <div class="static overflow-auto">
           <div class="max-w-7xl mx-auto py-4 md:px-4 flex items-center justify-center lg:px-8">
             <div class="md:mr-72 md:mt-0">
               <a
                 href="/"
-                class=" text-center md:text-base text-sm text-white hover:text-gray-200 "
+                class=" text-center md:text-base text-sm text-white hover:text-gray-200"
               >
                 Home
               </a>

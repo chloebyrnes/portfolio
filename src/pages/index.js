@@ -5,7 +5,7 @@ import Footer from "../components/Footer/Footer.js";
 
 const IndexPage = () => {
   return (
-    <main class="bg-sky-100">
+    <main class="bg-gray-100">
       <style>
         @import
         url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
@@ -15,9 +15,9 @@ const IndexPage = () => {
         <div class="max-w-7xl mx-auto">
           <div class="flex justify-between items-center px-6 md:px-0">
             <div class="">
-              <h1 class="text-4xl font-semibold">Chloe Byrnes</h1>
+              <h1 class="text-4xl font-semibold text-sky-900">Chloe Byrnes</h1>
             </div>
-            <div class="text-black">
+            <div class="text-sky-900">
               {" "}
               <button
                 type="button"
@@ -36,7 +36,11 @@ const IndexPage = () => {
         <About />
       </div>
 
-      <div>
+      <div
+        class="fixed
+             inset-x-0
+             bottom-0"
+      >
         <Footer />
       </div>
     </main>

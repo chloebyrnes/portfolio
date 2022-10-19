@@ -4,7 +4,7 @@ import Footer from "../components/Footer/Footer.js";
 
 const Portfolio = () => {
   return (
-    <main class="bg-sky-100">
+    <main class="bg-gray-100">
       <style>
         @import
         url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
@@ -14,9 +14,9 @@ const Portfolio = () => {
         <div class="max-w-7xl mx-auto">
           <div class="flex justify-between items-center px-6 md:px-0">
             <div class="">
-              <h1 class="text-4xl font-semibold">Chloe Byrnes</h1>
+              <h1 class="text-4xl font-semibold text-sky-900">Chloe Byrnes</h1>
             </div>
-            <div class="text-black">
+            <div class="text-sky-900">
               {" "}
               <button
                 type="button"
@@ -31,10 +31,10 @@ const Portfolio = () => {
         </div>
       </header>
 
-      <div class="container mx-auto flex justify-center bg-white pt-20 pb-10">
-        <h1 class="text-xl text-center font-semibold">Portfolio</h1>
+      <div class="container mx-auto flex justify-center bg-white pt-20 pb-10 text-sky-900">
+        <h1 class="text-4xl text-center font-semibold">Portfolio</h1>
       </div>
-      <div class="container mx-auto flex justify-center bg-white px-40 pb-20">
+      <div class="container mx-auto flex justify-center bg-white px-40 pb-20 text-sky-900">
         <p>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
           commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
@@ -60,7 +60,11 @@ const Portfolio = () => {
         </p>
       </div>
 
-      <div>
+      <div
+        class="fixed
+             inset-x-0
+             bottom-0"
+      >
         <Footer />
       </div>
     </main>

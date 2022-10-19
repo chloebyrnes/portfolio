@@ -1,5 +1,6 @@
 import * as React from "react";
 import Header from "../components/Header/Header.js";
+import About from "../components/About/About.js";
 
 const IndexPage = () => {
   return (
@@ -8,16 +9,11 @@ const IndexPage = () => {
         @import
         url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
       </style>
-      <header class="-mb-10 py-4">
+      <header class="py-4">
         <div class="max-w-7xl mx-auto">
           <div class="flex justify-between items-center px-6 md:px-0">
             <div class="">
-              <div class="md:block hidden">
-                {/* <img class="w-3/4" src={Logo} /> */}
-              </div>
-              <div class="md:hidden block">
-                {/* <img class="w-1/4" src={MobileLogo} /> */}
-              </div>
+              <h1 class="text-4xl font-semibold">Chloe Byrnes</h1>
             </div>
             <div class="text-black">
               {" "}
@@ -86,6 +82,10 @@ const IndexPage = () => {
           </div>
         </div>
       </header>
+
+      <div>
+        <About />
+      </div>
     </main>
   );
 };

@@ -37,16 +37,16 @@ const Portfolio = () => {
         </h1>
       </div>
       <div class="container mx-auto flex justify-center bg-white px-40 text-sky-900">
-        <p>asdfghjkl </p>
+        <p>Your message has been sent. </p>
       </div>
       <div class="container mx-auto flex justify-center bg-white pb-20 text-sky-900">
-        <p>asdfghjkl</p>
+        <p>I will get back to you soon.</p>
       </div>
 
       <div
         class="fixed
-           inset-x-0
-           bottom-0"
+             inset-x-0
+             bottom-0"
       >
         <Footer />
       </div>

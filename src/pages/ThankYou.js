@@ -53,3 +53,5 @@ const Resume = () => {
     </main>
   );
 };
+
+export default Resume;

@@ -2,7 +2,7 @@ import * as React from "react";
 import Header from "../components/Header/Header.js";
 import Footer from "../components/Footer/Footer.js";
 
-const Resume = () => {
+const Portfolio = () => {
   return (
     <main class="bg-gray-100">
       <style>
@@ -54,4 +54,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Portfolio;

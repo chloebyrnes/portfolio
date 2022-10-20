@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Header from "../components/Header/Header.js";
+import HeaderBar from "../components/Header/HeaderBar.js";
 import Footer from "../components/Footer/Footer.js";
 import { navigate } from "gatsby-link";
 
@@ -39,26 +39,7 @@ export default function Contact() {
         url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
       </style>
 
-      <header class="py-4 bg-gray-100">
-        <div class="max-w-7xl mx-auto">
-          <div class="flex justify-between items-center px-6 md:px-0">
-            <div class="">
-              <h1 class="text-4xl font-semibold text-sky-900">Chloe Byrnes</h1>
-            </div>
-            <div class="text-sky-900">
-              {" "}
-              <button
-                type="button"
-                class="ml-5 inline-flex items-center justify-center rounded-md"
-                aria-controls="mobile-menu"
-                aria-expanded="false"
-              >
-                <Header />
-              </button>
-            </div>
-          </div>
-        </div>
-      </header>
+      <HeaderBar />
 
       <div class="">
         <div class="max-w-7xl mx-auto md:py-16 md:px-4">

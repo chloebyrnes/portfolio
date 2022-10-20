@@ -3,12 +3,12 @@ import * as React from "react";
 const About = () => {
   return (
     <main>
-      <div class="container mx-auto flex justify-center bg-white pt-20 pb-10">
+      <div class="flex justify-center bg-white pt-20 pb-10">
         <h1 class="text-4xl text-center font-semibold text-sky-900">
           About Me
         </h1>
       </div>
-      <div class="container mx-auto flex justify-center bg-white px-40 pb-20 text-sky-900">
+      <div class="flex justify-center bg-white px-40 pb-20 text-sky-900">
         <p>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
           commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus

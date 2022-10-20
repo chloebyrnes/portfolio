@@ -2,7 +2,7 @@ import * as React from "react";
 import HeaderBar from "../components/Header/HeaderBar.js";
 import Footer from "../components/Footer/Footer.js";
 
-const Resume = () => {
+const ThankYou = () => {
   return (
     <main class="bg-stone-200">
       <style>
@@ -35,4 +35,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default ThankYou;

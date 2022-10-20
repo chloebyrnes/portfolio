@@ -12,12 +12,16 @@ const Resume = () => {
 
       <HeaderBar />
 
-      <div class="max-w-xl mx-auto lg:max-w-7xl lg:px-8">
-        <div class="container mx-auto flex justify-center bg-stone-200">
-          <h1 class="text-4xl text-center font-semibold text-stone-800">
-            Resume
-          </h1>
-        </div>
+      <div class="container mx-auto flex justify-center bg-white pt-20 pb-10">
+        <h1 class="text-4xl text-center font-semibold text-stone-800">
+          Thank You!
+        </h1>
+      </div>
+      <div class="container mx-auto flex justify-center bg-white px-40 text-stone-800">
+        <p>Your message has been sent. </p>
+      </div>
+      <div class="container mx-auto flex justify-center bg-white pb-20 text-stone-800">
+        <p>I will get back to you soon.</p>
       </div>
 
       <div

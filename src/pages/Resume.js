@@ -7,6 +7,10 @@ const Resume = () => {
     <main class="bg-stone-200">
       <HeaderBar />
 
+      <div>
+        <h1>hi</h1>
+      </div>
+
       <div
         class="fixed
              inset-x-0

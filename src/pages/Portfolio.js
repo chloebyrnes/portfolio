@@ -35,7 +35,7 @@ const Portfolio = () => {
         </div>
       </header>
 
-      <div class="md:py-28 py-10 bg-white">
+      <div class="py-10 bg-white">
         <div class="max-w-xl mx-auto lg:max-w-7xl lg:px-8">
           <div class="container mx-auto flex justify-center bg-white">
             <h1 class="text-4xl text-center font-semibold text-sky-900">

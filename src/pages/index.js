@@ -11,7 +11,7 @@ const IndexPage = () => {
         url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
       </style>
 
-      <header class="py-4">
+      <header class="py-4 bg-gray-100">
         <div class="max-w-7xl mx-auto">
           <div class="flex justify-between items-center px-6 md:px-0">
             <div class="">

@@ -2,6 +2,8 @@ import * as React from "react";
 import HeaderBar from "../components/Header/HeaderBar.js";
 import Footer from "../components/Footer/Footer.js";
 import About from "../components/About/About.js";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import MainImg from "../images/computer2.jpg";
 
 const index = () => {
   return (
@@ -13,15 +15,27 @@ const index = () => {
 
       <HeaderBar />
 
-      <dl class="mt-20 lg:space-y-0 lg:grid lg:grid-cols-3 grid grid-cols-2 lg:gap-8 gap-2 md:gap-0 space-y-0">
-        <div class="border  md:p-10 p-5 rounded-3xl">
-          <dt class="">
-            <p>Test</p>
+      <dt class="grid place-items-center">
+        <h1 class="md:text-4xl text-2xl font-medium text-gray-500 tracking-tight md:space-y-2 pt-0 md:pt-8 pb-5">
+          <span class="block">Hello & welcome!</span>
+        </h1>
+        <p class="text-gray-500">Thank's for visiting!</p>
 
-            <About />
-          </dt>
-        </div>
-      </dl>
+        <img src={MainImg}></img>
+
+        <AnchorLink
+          href="#About"
+          class="relative inline-flex items-center justify-center p-6 px-16 py-4 overflow-hidden font-medium transition duration-300 ease-out rounded-full shadow-xl group hover:opacity-70"
+        >
+          <span class="absolute inset-0 w-full h-full bg-white"></span>
+
+          <div class="sm:flex justify-center text-gray-600 relative z-20 flex items-center text-base">
+            <span class="">Learn more about me</span>
+          </div>
+        </AnchorLink>
+        <div id="About"></div>
+        <About />
+      </dt>
 
       <div>
         <Footer />

@@ -5,7 +5,7 @@ import Footer from "../components/Footer/Footer.js";
 
 const IndexPage = () => {
   return (
-    <main class="bg-gray-100">
+    <main class="bg-stone-200">
       <style>
         @import
         url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
@@ -13,13 +13,11 @@ const IndexPage = () => {
 
       <HeaderBar />
 
-      <About />
+      <div class="grid place-items-center">
+        <About />
+      </div>
 
-      <div
-        class="fixed
-             inset-x-0
-             bottom-0"
-      >
+      <div>
         <Footer />
       </div>
     </main>

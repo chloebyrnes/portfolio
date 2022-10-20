@@ -8,7 +8,7 @@ import Horiseon from "../images/Horiseon.png";
 
 const Portfolio = () => {
   return (
-    <div class="bg-white">
+    <div class="bg-stone-200">
       <style>
         @import
         url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
@@ -19,7 +19,7 @@ const Portfolio = () => {
       <div class="py-10 bg-white">
         <div class="max-w-xl mx-auto lg:max-w-7xl lg:px-8">
           <div class="container mx-auto flex justify-center bg-white">
-            <h1 class="text-4xl text-center font-semibold text-sky-900">
+            <h1 class="text-4xl text-center font-semibold text-stone-800">
               Portfolio
             </h1>
           </div>
@@ -28,7 +28,7 @@ const Portfolio = () => {
               <dt class="">
                 <img src={StoryKeeper}></img>
 
-                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-sky-900">
+                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-stone-800">
                   The Story Keeper
                 </p>
               </dt>
@@ -37,7 +37,7 @@ const Portfolio = () => {
               <dt class="">
                 <img src={RunBuddy}></img>
 
-                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-sky-900">
+                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-stone-800">
                   Run Buddy
                 </p>
               </dt>
@@ -46,7 +46,7 @@ const Portfolio = () => {
               <dt class="">
                 <img src={Horiseon}></img>
 
-                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-sky-900">
+                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-stone-800">
                   Horiseon
                 </p>
               </dt>
@@ -55,7 +55,7 @@ const Portfolio = () => {
               <dt class="">
                 <img src={NowWereCookin}></img>
 
-                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-sky-900">
+                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-stone-800">
                   Now We're Cookin
                 </p>
               </dt>
@@ -64,7 +64,7 @@ const Portfolio = () => {
               <dt class="">
                 <img src={StoryKeeper}></img>
 
-                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-sky-900">
+                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-stone-800">
                   The Story Keeper
                 </p>
               </dt>
@@ -73,7 +73,7 @@ const Portfolio = () => {
               <dt class="">
                 <img src={StoryKeeper}></img>
 
-                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-sky-900">
+                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-stone-800">
                   The Story Keeper
                 </p>
               </dt>

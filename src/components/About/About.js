@@ -2,15 +2,15 @@ import * as React from "react";
 
 const About = () => {
   return (
-    <div class="py-10 bg-white">
+    <div class="py-10 bg-stone-200">
       <div class="max-w-xl mx-auto lg:max-w-7xl lg:px-8">
-        <div class="container mx-auto flex justify-center bg-white">
-          <h1 class="text-4xl text-center font-semibold text-sky-900">
+        <div class="container mx-auto flex justify-center bg-stone-200">
+          <h1 class="text-4xl text-center font-semibold text-stone-800">
             About Me
           </h1>
         </div>
-        <div class="container mx-auto flex justify-center bg-white">
-          <h1 class="text-center text-sky-900 px-20 pt-10">
+        <div class="container mx-auto flex justify-center bg-stone-200">
+          <h1 class="text-center text-stone-800 px-20 pt-10">
             Hello! I'm currently enrolled in UCF's Full Stack Developer program.
             I'm studying to be a developer. I created this portfolio for my
             assignment. When you click "Menu" in the navigation bar, you are
@@ -19,8 +19,8 @@ const About = () => {
             contact form.
           </h1>
         </div>
-        <div class="container mx-auto flex justify-center bg-white">
-          <h1 class="text-center text-sky-900 px-20 pt-5">
+        <div class="container mx-auto flex justify-center bg-stone-200">
+          <h1 class="text-center text-stone-800 px-20 pt-5">
             Thanks for visiting!
           </h1>
         </div>

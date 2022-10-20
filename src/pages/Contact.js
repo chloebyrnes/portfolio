@@ -33,7 +33,7 @@ export default function Contact() {
   };
 
   return (
-    <div class="bg-white">
+    <div class="bg-stone-200">
       <style>
         @import
         url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
@@ -46,9 +46,9 @@ export default function Contact() {
           <div class="rounded-3xl relative bg-white shadow-xl">
             <h2 class="sr-only">Contact me</h2>
 
-            <div class="rounded-3xl bg-gradient-to-r from-sky-900 to-sky-200 grid grid-cols-1 lg:grid-cols-3">
+            <div class="rounded-3xl bg-gradient-to-r from-stone-300 to-stone-200 grid grid-cols-1 lg:grid-cols-3">
               <div class="relative overflow-hidden py-10 px-6 xl:p-12">
-                <h3 class="pt-14 text-5xl font-medium text-white">
+                <h3 class="pt-14 text-5xl font-medium text-stone-500">
                   Contact Information
                 </h3>
 
@@ -102,7 +102,7 @@ export default function Contact() {
               </div>
 
               <div class="shadow-xl rounded-3xl bg-white md:mt-14 md:mr-14 m-8 md:mb-14 form md:py-10 px-6 md:pt-0 pt-10 md:pb-0 pb-10 sm:px-10 lg:col-span-2 xl:p-12">
-                <h3 class="text-lg font-medium text-sky-900">
+                <h3 class="text-lg font-medium text-stone-800">
                   Send me a message
                 </h3>
 
@@ -118,7 +118,7 @@ export default function Contact() {
                   <div>
                     <label
                       for="firstName"
-                      class="block text-sm font-medium textsky-900"
+                      class="block text-sm font-medium text-stone-800"
                     >
                       First name
                     </label>
@@ -129,7 +129,7 @@ export default function Contact() {
                         id="firstName"
                         onChange={handleChange}
                         autocomplete="given-name"
-                        class="py-3 px-4 block w-full shadow-sm text-sky-900 focus:outline-none bg-gray-100 rounded-md"
+                        class="py-3 px-4 block w-full shadow-sm text-stone-800 focus:outline-none bg-gray-100 rounded-md"
                       />
                     </div>
                   </div>
@@ -137,7 +137,7 @@ export default function Contact() {
                   <div>
                     <label
                       for="lastName"
-                      class="block text-sm font-medium text-sky-900"
+                      class="block text-sm font-medium text-stone-800"
                     >
                       Last name
                     </label>
@@ -148,14 +148,14 @@ export default function Contact() {
                         id="lastName"
                         onChange={handleChange}
                         autocomplete="family-name"
-                        class="py-3 px-4 block w-full shadow-sm text-sky-900 focus:outline-none bg-gray-100 rounded-md"
+                        class="py-3 px-4 block w-full shadow-sm text-stone-800 focus:outline-none bg-gray-100 rounded-md"
                       />
                     </div>
                   </div>
                   <div>
                     <label
                       for="email"
-                      class="block text-sm font-medium text-sky-900"
+                      class="block text-sm font-medium text-stone-800"
                     >
                       Email
                     </label>
@@ -166,7 +166,7 @@ export default function Contact() {
                         type="email"
                         autocomplete="email"
                         onChange={handleChange}
-                        class="py-3 px-4 block w-full shadow-sm text-sky-900 focus:outline-none bg-gray-100 rounded-md"
+                        class="py-3 px-4 block w-full shadow-sm text-stone-800 focus:outline-none bg-gray-100 rounded-md"
                       />
                     </div>
                   </div>
@@ -174,11 +174,11 @@ export default function Contact() {
                     <div class="flex justify-between">
                       <label
                         for="phone"
-                        class="block text-sm font-medium text-sky-900"
+                        class="block text-sm font-medium text-stone-800"
                       >
                         Phone
                       </label>
-                      <span id="phone-optional" class="text-sm text-sky-900">
+                      <span id="phone-optional" class="text-sm text-stone-800">
                         Optional
                       </span>
                     </div>
@@ -189,7 +189,7 @@ export default function Contact() {
                         id="phone"
                         onChange={handleChange}
                         autocomplete="tel"
-                        class="py-3 px-4 block w-full shadow-sm text-sky-900 focus:outline-none bg-gray-100 rounded-md"
+                        class="py-3 px-4 block w-full shadow-sm text-stone-800 focus:outline-none bg-gray-100 rounded-md"
                         aria-describedby="phone-optional"
                       />
                     </div>
@@ -199,11 +199,11 @@ export default function Contact() {
                     <div class="flex justify-between">
                       <label
                         for="message"
-                        class="block text-sm font-medium text-sky-900"
+                        class="block text-sm font-medium text-stone-800"
                       >
                         Message
                       </label>
-                      <span id="message-max" class="text-sm text-sky-900">
+                      <span id="message-max" class="text-sm text-stone-800">
                         Max. 500 characters
                       </span>
                     </div>
@@ -222,13 +222,13 @@ export default function Contact() {
                     {SubmitDisabled === true ? (
                       <button
                         type="submit"
-                        class="bg-gray-400 relative mt-2 w-full inline-flex items-center justify-center px-6 py-4 rounded-full shadow-sm text-base font-medium text-white hover:opacity-70"
+                        class="bg-neutral-400 relative mt-2 w-full inline-flex items-center justify-center px-6 py-4 rounded-full shadow-sm text-base font-medium text-white hover:opacity-70"
                       >
                         Loading...
                       </button>
                     ) : (
                       <button
-                        class="bg-gray-400 relative mt-2 w-full inline-flex items-center justify-center px-6 py-4 rounded-full shadow-sm text-base font-medium text-white hover:opacity-70"
+                        class="bg-neutral-400 relative mt-2 w-full inline-flex items-center justify-center px-6 py-4 rounded-full shadow-sm text-base font-medium text-white hover:opacity-70"
                         type="submit"
                       >
                         Submit

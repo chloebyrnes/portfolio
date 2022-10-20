@@ -7,7 +7,7 @@ const MenuModal = ({ open, setOpen }) => {
         <div class="z-20 opacity-100 fixed inset-0 ease-out duration-300">
           <div
             onClick={() => setOpen(false)}
-            class="absolute inset-0 bg-gray-500 opacity-80"
+            class="absolute inset-0 bg-stone-100 opacity-80"
           ></div>
         </div>
       ) : (

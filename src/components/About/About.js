@@ -1,5 +1,5 @@
 import * as React from "react";
-import Computer from "../../images/computer1.jpg";
+import AboutMe from "../../images/aboutme.jpg";
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
               <div class="relative">
                 <div class="lg:grid lg:grid-cols-2 lg:gap-12">
                   <div class="mt-6 prose prose-indigo prose-lg text-gray-500 lg:mt-0 px-8 md:px-0">
-                    <img class="rounded-3xl" src={Computer} alt="" />
+                    <img class="rounded-3xl" src={AboutMe} alt="" />
 
                     <div class=" border-b pb-8 md:py-2 py-10  max-w-xl">
                       <h1 class="md:text-3xl text-2xl font-medium text-gray-500 tracking-tight md:space-y-2 pt-0 md:pt-8 pb-5">
@@ -28,18 +28,6 @@ const About = () => {
                         rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
                         dictum felis eu pede mollis pretium. Integer tincidunt.
                         Cras dapibus.
-                      </p>
-                      <p class="max-w-lg mt-2 text-stone-500 leading-relaxed md:py-5">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit. Aenean commodo ligula eget dolor. Aenean massa.
-                        Cum sociis natoque penatibus et magnis dis parturient
-                        montes, nascetur ridiculus mus. Donec quam felis,
-                        ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-                        consequat massa quis enim. Donec pede justo, fringilla
-                        vel, aliquet nec, vulputate eget, arcu. In enim justo,
-                        rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
-                        dictum felis eu pede mollis pretium. Integer tincidunt.
-                        Cras dapibus. Vivamus elementum semper nisi.
                       </p>
                     </div>
                   </div>
@@ -73,7 +61,11 @@ const About = () => {
                       amet orci eget eros faucibus tincidunt. Duis leo. Sed
                       fringilla mauris sit amet nibh. Donec sodales sagittis
                       magna. Sed consequat, leo eget bibendum sodales, augue
-                      velit cursus nunc,
+                      velit cursus nunc, Donec pede justo, fringilla vel,
+                      aliquet nec, vulputate eget, arcu. In enim justo, rhoncus
+                      ut, imperdiet a, venenatis vitae, justo. Nullam dictum
+                      felis eu pede mollis pretium. Integer tincidunt. Cras
+                      dapibus.
                     </p>
                   </div>
                 </div>

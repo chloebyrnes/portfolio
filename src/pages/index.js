@@ -15,13 +15,10 @@ const index = () => {
 
       <HeaderBar />
 
-      <dt class="grid place-items-center">
-        <h1 class="md:text-4xl text-2xl font-medium text-gray-500 tracking-tight md:space-y-2 pt-0 md:pt-8 pb-5">
-          <span class="block">Hello & welcome!</span>
+      <dt class="grid place-items-center pt-40">
+        <h1 class="md:text-4xl text-2xl font-medium text-gray-500 tracking-tight md:space-y-2 pt-0 md:pt-8 pb-8">
+          <span class="block">Hello!</span>
         </h1>
-        <p class="text-gray-500">Thank's for visiting!</p>
-
-        <img src={MainImg}></img>
 
         <AnchorLink
           href="#About"
@@ -33,6 +30,7 @@ const index = () => {
             <span class="">Learn more about me</span>
           </div>
         </AnchorLink>
+        <div class="pb-72"></div>
         <div id="About"></div>
         <About />
       </dt>

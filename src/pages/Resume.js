@@ -6,7 +6,7 @@ import RunBuddy from "../images/RunBuddy.png";
 import NowWereCookin from "../images/NowWereCookin.png";
 import Horiseon from "../images/Horiseon.png";
 
-const Portfolio = () => {
+const Resume = () => {
   return (
     <div class="bg-stone-200">
       <style>
@@ -89,4 +89,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Resume;

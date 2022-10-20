@@ -1,32 +1,111 @@
 import * as React from "react";
+import Header from "../components/Header/Header.js";
+import Footer from "../components/Footer/Footer.js";
+import StoryKeeper from "../images/storykeeper.png";
+import RunBuddy from "../images/RunBuddy.png";
+import NowWereCookin from "../images/NowWereCookin.png";
+import Horiseon from "../images/Horiseon.png";
 
-const About = () => {
+const Portfolio = () => {
   return (
-    <div class="py-10 bg-white">
-      <div class="max-w-xl mx-auto lg:max-w-7xl lg:px-8">
-        <div class="container mx-auto flex justify-center bg-white">
-          <h1 class="text-4xl text-center font-semibold text-sky-900">
-            About Me
-          </h1>
+    <div class="bg-white">
+      <style>
+        @import
+        url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+      </style>
+
+      <header class="py-4 bg-gray-100">
+        <div class="max-w-7xl mx-auto">
+          <div class="flex justify-between items-center px-6 md:px-0">
+            <div class="">
+              <h1 class="text-4xl font-semibold text-sky-900">Chloe Byrnes</h1>
+            </div>
+            <div class="text-sky-900">
+              {" "}
+              <button
+                type="button"
+                class="ml-5 inline-flex items-center justify-center rounded-md"
+                aria-controls="mobile-menu"
+                aria-expanded="false"
+              >
+                <Header />
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="container mx-auto flex justify-center bg-white">
-          <h1 class="text-center text-sky-900 px-20 pt-10">
-            Hello! I'm currently enrolled in UCF's Full Stack Developer program.
-            I'm studying to be a developer. I created this portfolio for my
-            assignment. When you click "Menu" in the navigation bar, you are
-            able to see my portfolio. You can see the websites/applications I've
-            created throughout my classes. Feel free to contact me using the
-            contact form.
-          </h1>
+      </header>
+
+      <div class="py-10 bg-white">
+        <div class="max-w-xl mx-auto lg:max-w-7xl lg:px-8">
+          <div class="container mx-auto flex justify-center bg-white">
+            <h1 class="text-4xl text-center font-semibold text-sky-900">
+              Portfolio
+            </h1>
+          </div>
+          <dl class="mt-20 lg:space-y-0 lg:grid lg:grid-cols-3 grid grid-cols-2 lg:gap-8 gap-2 md:gap-0 space-y-0">
+            <div class="border  md:p-10 p-5 rounded-3xl">
+              <dt class="">
+                <img src={StoryKeeper}></img>
+
+                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-sky-900">
+                  The Story Keeper
+                </p>
+              </dt>
+            </div>
+            <div class="border md:p-10 p-5 rounded-3xl">
+              <dt class="">
+                <img src={RunBuddy}></img>
+
+                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-sky-900">
+                  Run Buddy
+                </p>
+              </dt>
+            </div>
+            <div class="border  md:p-10 p-5 rounded-3xl">
+              <dt class="">
+                <img src={Horiseon}></img>
+
+                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-sky-900">
+                  Horiseon
+                </p>
+              </dt>
+            </div>
+            <div class="border  md:p-10 p-5 rounded-3xl">
+              <dt class="">
+                <img src={NowWereCookin}></img>
+
+                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-sky-900">
+                  Now We're Cookin
+                </p>
+              </dt>
+            </div>
+            <div class="border  md:p-10 p-5 rounded-3xl">
+              <dt class="">
+                <img src={StoryKeeper}></img>
+
+                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-sky-900">
+                  The Story Keeper
+                </p>
+              </dt>
+            </div>
+            <div class="border  md:p-10 p-5 rounded-3xl">
+              <dt class="">
+                <img src={StoryKeeper}></img>
+
+                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-sky-900">
+                  The Story Keeper
+                </p>
+              </dt>
+            </div>
+          </dl>
         </div>
-        <div class="container mx-auto flex justify-center bg-white">
-          <h1 class="text-center text-sky-900 px-20 pt-5">
-            Thanks for visiting!
-          </h1>
-        </div>
+      </div>
+
+      <div>
+        <Footer />
       </div>
     </div>
   );
 };
 
-export default About;
+export default Portfolio;

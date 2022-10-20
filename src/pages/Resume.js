@@ -1,10 +1,6 @@
 import * as React from "react";
 import HeaderBar from "../components/Header/HeaderBar.js";
 import Footer from "../components/Footer/Footer.js";
-import StoryKeeper from "../images/storykeeper.png";
-import RunBuddy from "../images/RunBuddy.png";
-import NowWereCookin from "../images/NowWereCookin.png";
-import Horiseon from "../images/Horiseon.png";
 
 const Resume = () => {
   return (

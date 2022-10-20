@@ -1,16 +1,20 @@
 import * as React from "react";
 import Header from "../components/Header/Header.js";
 import Footer from "../components/Footer/Footer.js";
+import StoryKeeper from "../images/storykeeper.png";
+import RunBuddy from "../images/RunBuddy.png";
+import NowWereCookin from "../images/NowWereCookin.png";
+import Horiseon from "../images/Horiseon.png";
 
 const Portfolio = () => {
   return (
-    <main class="bg-gray-100">
+    <div class="bg-white">
       <style>
         @import
         url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
       </style>
 
-      <header class="py-4">
+      <header class="py-4 bg-gray-100">
         <div class="max-w-7xl mx-auto">
           <div class="flex justify-between items-center px-6 md:px-0">
             <div class="">
@@ -31,26 +35,76 @@ const Portfolio = () => {
         </div>
       </header>
 
-      <div class="container mx-auto flex justify-center bg-white pt-20 pb-10">
-        <h1 class="text-4xl text-center font-semibold text-sky-900">
-          Thank You!
-        </h1>
-      </div>
-      <div class="container mx-auto flex justify-center bg-white px-40 text-sky-900">
-        <p>Your message has been sent. </p>
-      </div>
-      <div class="container mx-auto flex justify-center bg-white pb-20 text-sky-900">
-        <p>I will get back to you soon.</p>
+      <div class="md:py-28 py-10 bg-white">
+        <div class="max-w-xl mx-auto lg:max-w-7xl lg:px-8">
+          <div class="container mx-auto flex justify-center bg-white">
+            <h1 class="text-4xl text-center font-semibold text-sky-900">
+              Portfolio
+            </h1>
+          </div>
+          <dl class="mt-20 lg:space-y-0 lg:grid lg:grid-cols-3 grid grid-cols-2 lg:gap-8 gap-2 md:gap-0 space-y-0">
+            <div class="border  md:p-10 p-5 rounded-3xl">
+              <dt class="">
+                <img src={StoryKeeper}></img>
+
+                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-sky-900">
+                  The Story Keeper
+                </p>
+              </dt>
+            </div>
+            <div class="border md:p-10 p-5 rounded-3xl">
+              <dt class="">
+                <img src={RunBuddy}></img>
+
+                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-sky-900">
+                  Run Buddy
+                </p>
+              </dt>
+            </div>
+            <div class="border  md:p-10 p-5 rounded-3xl">
+              <dt class="">
+                <img src={Horiseon}></img>
+
+                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-sky-900">
+                  Horiseon
+                </p>
+              </dt>
+            </div>
+            <div class="border  md:p-10 p-5 rounded-3xl">
+              <dt class="">
+                <img src={NowWereCookin}></img>
+
+                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-sky-900">
+                  Now We're Cookin
+                </p>
+              </dt>
+            </div>
+            <div class="border  md:p-10 p-5 rounded-3xl">
+              <dt class="">
+                <img src={StoryKeeper}></img>
+
+                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-sky-900">
+                  The Story Keeper
+                </p>
+              </dt>
+            </div>
+            <div class="border  md:p-10 p-5 rounded-3xl">
+              <dt class="">
+                <img src={StoryKeeper}></img>
+
+                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-sky-900">
+                  The Story Keeper
+                </p>
+              </dt>
+            </div>
+          </dl>
+        </div>
       </div>
 
-      <div
-        class="fixed
-             inset-x-0
-             bottom-0"
-      >
+      <div>
         <Footer />
       </div>
-    </main>
+    </div>
   );
 };
 

@@ -23,17 +23,19 @@ const Portfolio = () => {
               Portfolio
             </h1>
           </div>
-          <dl class="mt-20 lg:space-y-0 lg:grid lg:grid-cols-3 grid grid-cols-2 lg:gap-8 gap-2 md:gap-0 space-y-0">
-            <div class="border  md:p-10 p-5 rounded-3xl">
+          <dl class="mt-20 lg:space-y-0 grid grid-cols-2 lg:gap-8 gap-2 md:gap-0 space-y-0">
+            <div class="border hover:bg-gray-100 md:p-10 p-5 rounded-3xl">
               <dt class="">
-                <img src={StoryKeeper}></img>
+                <a href="#">
+                  <img src={StoryKeeper}></img>
+                </a>
 
                 <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-stone-800">
                   The Story Keeper
                 </p>
               </dt>
             </div>
-            <div class="border md:p-10 p-5 rounded-3xl">
+            <div class="border hover:bg-gray-100 md:p-10 p-5 rounded-3xl">
               <dt class="">
                 <img src={RunBuddy}></img>
 
@@ -42,7 +44,7 @@ const Portfolio = () => {
                 </p>
               </dt>
             </div>
-            <div class="border  md:p-10 p-5 rounded-3xl">
+            <div class="border hover:bg-gray-100 md:p-10 p-5 rounded-3xl">
               <dt class="">
                 <img src={Horiseon}></img>
 
@@ -51,7 +53,7 @@ const Portfolio = () => {
                 </p>
               </dt>
             </div>
-            <div class="border  md:p-10 p-5 rounded-3xl">
+            <div class="border hover:bg-gray-100 md:p-10 p-5 rounded-3xl">
               <dt class="">
                 <img src={NowWereCookin}></img>
 
@@ -60,7 +62,7 @@ const Portfolio = () => {
                 </p>
               </dt>
             </div>
-            <div class="border  md:p-10 p-5 rounded-3xl">
+            <div class="border hover:bg-gray-100 md:p-10 p-5 rounded-3xl">
               <dt class="">
                 <img src={StoryKeeper}></img>
 
@@ -69,7 +71,7 @@ const Portfolio = () => {
                 </p>
               </dt>
             </div>
-            <div class="border  md:p-10 p-5 rounded-3xl">
+            <div class="border hover:bg-gray-100 md:p-10 p-5 rounded-3xl">
               <dt class="">
                 <img src={StoryKeeper}></img>
 
@@ -82,11 +84,7 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <div
-        class="fixed
-           inset-x-0
-           bottom-0"
-      >
+      <div>
         <Footer />
       </div>
     </div>

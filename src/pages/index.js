@@ -15,8 +15,8 @@ const index = () => {
 
       <HeaderBar />
 
-      <dt class="grid place-items-center pt-40">
-        <h1 class="md:text-4xl text-2xl font-medium text-gray-500 tracking-tight md:space-y-2 pt-0 md:pt-8 pb-8">
+      <dt class="grid place-items-center pt-10">
+        <h1 class="md:text-4xl text-2xl font-medium text-gray-500 tracking-tight md:space-y-2 pb-8">
           <span class="block">Hello!</span>
         </h1>
 
@@ -30,7 +30,6 @@ const index = () => {
             <span class="">Learn more about me</span>
           </div>
         </AnchorLink>
-        <div class="pb-72"></div>
         <div id="About"></div>
         <About />
       </dt>

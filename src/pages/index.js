@@ -3,7 +3,7 @@ import HeaderBar from "../components/Header/HeaderBar.js";
 import Footer from "../components/Footer/Footer.js";
 import About from "../components/About/About.js";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import MainImg from "../images/computer2.jpg";
+import Hero from "../components/Hero/Hero.js";
 
 const index = () => {
   return (

@@ -241,7 +241,11 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <div>
+      <div
+        class="fixed
+           inset-x-0
+           bottom-0"
+      >
         <Footer />
       </div>
     </div>

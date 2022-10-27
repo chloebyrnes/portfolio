@@ -27,16 +27,18 @@ const ThankYou = () => {
               animationOut="fadeOut"
               isVisible={true}
             >
-              <h1 class="text-4xl text-center font-semibold text-gray-500">
+              <h1 class="text-4xl text-center font-semibold text-slate-400">
                 Thank You!
+              </h1>
+              <h1 class="text-2xl pt-5 text-center font-semibold text-stone-400">
+                I received your message, I will get back to you via email soon!
               </h1>
             </Animated>
           </div>
-          <dl class="mt-20 lg:space-y-0 lg:grid lg:grid-cols-3 grid grid-cols-2 lg:gap-8 gap-2 md:gap-0 space-y-0">
-            <div class="border  md:p-10 p-5 rounded-3xl">
-              <dt class="">
-                <p>Test</p>
-              </dt>
+
+          <dl class="mt-10 lg:space-y-0 grid grid-cols-3 lg:gap-8 gap-2 md:gap-0 space-y-0">
+            <div class=" md:p-10 p-5 rounded-3xl">
+              <dt class=""></dt>
             </div>
           </dl>
         </div>

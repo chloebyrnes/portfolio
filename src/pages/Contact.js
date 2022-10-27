@@ -48,7 +48,7 @@ export default function Contact() {
 
             <div class="rounded-3xl bg-gradient-to-r from-stone-300 to-stone-200 grid grid-cols-1 lg:grid-cols-3">
               <div class="relative overflow-hidden py-10 px-6 xl:p-12">
-                <h3 class="pt-14 text-5xl font-medium text-stone-500">
+                <h3 class="pt-14 text-5xl font-medium text-slate-400">
                   Contact Information
                 </h3>
 
@@ -102,7 +102,7 @@ export default function Contact() {
               </div>
 
               <div class="shadow-xl rounded-3xl bg-white md:mt-14 md:mr-14 m-8 md:mb-14 form md:py-10 px-6 md:pt-0 pt-10 md:pb-0 pb-10 sm:px-10 lg:col-span-2 xl:p-12">
-                <h3 class="text-lg font-medium text-stone-800">
+                <h3 class="text-lg font-medium text-slate-400">
                   Send me a message
                 </h3>
 
@@ -222,13 +222,13 @@ export default function Contact() {
                     {SubmitDisabled === true ? (
                       <button
                         type="submit"
-                        class="bg-neutral-400 relative mt-2 w-full inline-flex items-center justify-center px-6 py-4 rounded-full shadow-sm text-base font-medium text-white hover:opacity-70"
+                        class="bg-slate-400 relative mt-2 w-full inline-flex items-center justify-center px-6 py-4 rounded-full shadow-sm text-base font-medium text-white hover:opacity-70"
                       >
                         Loading...
                       </button>
                     ) : (
                       <button
-                        class="bg-neutral-400 relative mt-2 w-full inline-flex items-center justify-center px-6 py-4 rounded-full shadow-sm text-base font-medium text-white hover:opacity-70"
+                        class="bg-slate-400 relative mt-2 w-full inline-flex items-center justify-center px-6 py-4 rounded-full shadow-sm text-base font-medium text-white hover:opacity-70"
                         type="submit"
                       >
                         Submit

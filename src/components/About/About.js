@@ -15,7 +15,7 @@ const About = () => {
                   </div>
 
                   <div class="mt-8 py-10 md:py-0 pb-20">
-                    <h1 class="font-bold px-12 md:px-0 md:text-4xl text-2xl font-medium text-gray-500 tracking-tight md:space-y-2 pl-10 md:pl-0">
+                    <h1 class="font-bold px-12 md:px-0 md:text-4xl text-2xl font-medium text-slate-400 tracking-tight md:space-y-2 pl-10 md:pl-0">
                       <span class="block">About me</span>
                     </h1>
                     <p class=" px-12 md:px-0 md:text-xl md:max-w-lg mt-5 text-stone-500 md:leading-relaxed pl-10 md:pl-0">

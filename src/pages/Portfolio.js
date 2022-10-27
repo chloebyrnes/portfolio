@@ -36,14 +36,14 @@ const Portfolio = () => {
             >
               <span class="block">
                 {" "}
-                <h1 class="text-4xl text-center font-semibold text-gray-500 bg-stone-200">
+                <h1 class="text-4xl text-center font-semibold text-slate-400 bg-stone-200">
                   Portfolio
                 </h1>
               </span>
             </Animated>
           </div>
-          <dl class="mt-20 lg:space-y-0 grid grid-cols-2 lg:gap-8 gap-2 md:gap-0 space-y-0">
-            <div class="border bg-stone-100 md:p-10 p-5">
+          <dl class="mt-20 lg:space-y-0 grid grid-cols-2 lg:gap-8 gap-2 md:gap-0 space-y-0 ">
+            <div class="border bg-stone-100 md:p-10 p-5 rounded-lg">
               <dt class="">
                 <a
                   class="hover:opacity-80"
@@ -57,7 +57,7 @@ const Portfolio = () => {
                 </a>
               </dt>
             </div>
-            <div class="border bg-stone-100 md:p-10 p-5">
+            <div class="border rounded-lg bg-stone-100 md:p-10 p-5">
               <dt class="">
                 <a
                   class="hover:opacity-80"
@@ -71,7 +71,7 @@ const Portfolio = () => {
                 </a>
               </dt>
             </div>
-            <div class="border bg-stone-100 md:p-10 p-5">
+            <div class="border rounded-lg bg-stone-100 md:p-10 p-5">
               <dt class="">
                 <a
                   class="hover:opacity-80"
@@ -85,7 +85,7 @@ const Portfolio = () => {
                 </a>
               </dt>
             </div>
-            <div class="border bg-stone-100 md:p-10 p-5">
+            <div class="border rounded-lg bg-stone-100 md:p-10 p-5">
               <dt class="">
                 <a
                   class="hover:opacity-80"

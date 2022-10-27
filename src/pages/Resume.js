@@ -31,7 +31,7 @@ const Resume = () => {
             >
               <span class="block">
                 {" "}
-                <h1 class="text-4xl text-center font-semibold text-stone-800">
+                <h1 class="text-4xl text-center font-semibold text-slate-400">
                   Resume
                 </h1>
               </span>
@@ -47,7 +47,7 @@ const Resume = () => {
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-6 h-6 text-stone-400"
+                    class="w-6 h-6 text-slate-400"
                   >
                     <path
                       stroke-linecap="round"
@@ -61,38 +61,42 @@ const Resume = () => {
                   animationOut="fadeOut"
                   isVisible={true}
                 >
-                  <h1 class="text-2xl font-semibold text-stone-800 bg-stone-100">
+                  <h1 class="text-2xl font-semibold text-stone-500 bg-stone-100">
                     EXPERIENCE
                   </h1>
                 </Animated>
-                <p class="text-stone-700 font-semibold bg-stone-100">
-                  JR DEVELOPER
-                </p>
-                <p class="text-stone-500">Freelance</p>
+                <Animated
+                  animationIn="fadeIn"
+                  animationOut="fadeOut"
+                  isVisible={true}
+                >
+                  <p class="text-stone-600 font-semibold">JR DEVELOPER</p>
+                </Animated>
+                <div class="p-2"></div>
                 <ul class="list-disc">
-                  <li class="text-stone-800 text-sm list-disc py-2">
+                  <li class="text-slate-400 text-sm list-disc py-2">
                     Developed custom websites to meet individual and client
                     needs.
                   </li>
-                  <li class="text-stone-800 text-sm list-disc py-2">
+                  <li class="text-slate-400 text-sm list-disc py-2">
                     Verified front-end code functionality across browsers and
                     platforms.
                   </li>
-                  <li class="text-stone-800 text-sm list-disc py-2">
+                  <li class="text-slate-400 text-sm list-disc py-2">
                     Demonstrated ability to manage multiple tasks while
                     remaining adaptable and flexible.
                   </li>
-                  <li class="text-stone-800 text-sm list-disc py-2">
+                  <li class="text-slate-400 text-sm list-disc py-2">
                     Wrote well-designed, testable code.
                   </li>
-                  <li class="text-stone-800 text-sm list-disc py-2">
+                  <li class="text-slate-400 text-sm list-disc py-2">
                     Developed databases that supported Web applications and Web
                     sites.
                   </li>
-                  <li class="text-stone-800 text-sm list-disc py-2">
+                  <li class="text-slate-400 text-sm list-disc py-2">
                     Performed and directed Web site updates.
                   </li>
-                  <li class="text-stone-800 text-sm list-disc py-2">
+                  <li class="text-slate-400 text-sm list-disc py-2">
                     Recommended and implemented performance improvements.
                   </li>
                 </ul>
@@ -108,7 +112,7 @@ const Resume = () => {
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-6 h-6 text-stone-400"
+                    class="w-6 h-6 text-slate-400"
                   >
                     <path
                       stroke-linecap="round"
@@ -122,28 +126,28 @@ const Resume = () => {
                   animationOut="fadeOut"
                   isVisible={true}
                 >
-                  <h1 class="text-2xl font-semibold text-stone-800 bg-stone-100">
+                  <h1 class="text-2xl font-semibold text-stone-500 bg-stone-100">
                     SKILLS
                   </h1>
                 </Animated>
 
                 <ul class="list-disc pt-10">
-                  <li class="text-stone-800 text-sm list-disc py-2">
+                  <li class="text-slate-400 text-sm list-disc py-2">
                     Design and Development
                   </li>
-                  <li class="text-stone-800 text-sm list-disc py-2">
+                  <li class="text-slate-400 text-sm list-disc py-2">
                     Web Applications
                   </li>
-                  <li class="text-stone-800 text-sm list-disc py-2">
+                  <li class="text-slate-400 text-sm list-disc py-2">
                     Bug Fixes
                   </li>
-                  <li class="text-stone-800 text-sm list-disc py-2">
+                  <li class="text-slate-400 text-sm list-disc py-2">
                     Programming Languages
                   </li>
-                  <li class="text-stone-800 text-sm list-disc py-2">
+                  <li class="text-slate-400 text-sm list-disc py-2">
                     Design Patterns and Principles
                   </li>
-                  <li class="text-stone-800 text-sm list-disc py-2">
+                  <li class="text-slate-400 text-sm list-disc py-2">
                     Usability and Accessibility
                   </li>
                 </ul>
@@ -159,7 +163,7 @@ const Resume = () => {
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-6 h-6 text-stone-400"
+                    class="w-6 h-6 text-slate-400"
                   >
                     <path
                       stroke-linecap="round"
@@ -174,22 +178,22 @@ const Resume = () => {
                   animationOut="fadeOut"
                   isVisible={true}
                 >
-                  <h1 class="text-2xl font-semibold text-stone-800 bg-stone-100">
+                  <h1 class="text-2xl font-semibold text-stone-500 bg-stone-100">
                     EDUCATION
                   </h1>
                 </Animated>
 
                 <ul class="pt-10">
-                  <li class="text-stone-700 font-semibold bg-stone-100">
+                  <li class="text-stone-600 font-semibold bg-stone-100">
                     HIGH SCHOOL DIPLOMA
                   </li>
-                  <li class="text-stone-800 text-sm py-2 pb-5">
+                  <li class="text-slate-400 text-sm py-2 pb-5">
                     Washburn Academy
                   </li>
-                  <li class="text-stone-700 font-semibold bg-stone-100">
+                  <li class="text-stone-600 font-semibold bg-stone-100">
                     UCF | FULL STACK DEVELOPER
                   </li>
-                  <li class="text-stone-800 text-sm py-2">In progress</li>
+                  <li class="text-slate-400 text-sm py-2">In progress</li>
                 </ul>
               </dt>
             </div>

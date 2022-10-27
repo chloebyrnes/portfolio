@@ -5,6 +5,9 @@ import StoryKeeper from "../images/storynew.png";
 import RunBuddy from "../images/RunBuddy.png";
 import WebQuiz from "../images/webquiz.png";
 import Horiseon from "../images/Horiseon.png";
+import TechBlog from "../images/techblog.png";
+import NowWereCookin from "../images/NowWereCookin.png";
+
 import { Animated } from "react-animated-css";
 
 const Portfolio = () => {
@@ -95,6 +98,36 @@ const Portfolio = () => {
 
                   <p class="text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-stone-800">
                     Web Quiz
+                  </p>
+                </a>
+              </dt>
+            </div>
+
+            <div class="border rounded-lg bg-stone-100 md:p-10 p-5">
+              <dt class="">
+                <a
+                  class="hover:opacity-80"
+                  href="https://kristafrancis.github.io/now-were-cookin/"
+                >
+                  <img src={NowWereCookin}></img>
+
+                  <p class="text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-stone-800">
+                    Now We're Cookin
+                  </p>
+                </a>
+              </dt>
+            </div>
+
+            <div class="border rounded-lg bg-stone-100 md:p-10 p-5">
+              <dt class="">
+                <a
+                  class="hover:opacity-80"
+                  href="https://tech-blog-module-14-chloe.herokuapp.com/"
+                >
+                  <img src={TechBlog}></img>
+
+                  <p class="text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-stone-800">
+                    The Tech Blog
                   </p>
                 </a>
               </dt>

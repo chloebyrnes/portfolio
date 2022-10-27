@@ -240,6 +240,7 @@ export default function Contact() {
                         type="text"
                         name="phone"
                         id="phone"
+                        required
                         onChange={handleChange}
                         autocomplete="tel"
                         class="py-3 px-4 block w-full shadow-sm text-stone-800 focus:outline-none bg-gray-100 rounded-md"
@@ -264,6 +265,7 @@ export default function Contact() {
                       <textarea
                         id="message"
                         name="message"
+                        required
                         onChange={handleChange}
                         rows="4"
                         class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:outline-none bg-gray-100 rounded-md"

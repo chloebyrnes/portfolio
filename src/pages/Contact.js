@@ -58,7 +58,7 @@ export default function Contact() {
                     class="rounded-md border border-white p-5 flex justify-center text-base text-sky-900 hover:border-white"
                   >
                     <svg
-                      class="flex-shrink-0 w-6 h-6 text-gray-300"
+                      class="flex-shrink-0 w-6 h-6 text-white"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -80,7 +80,7 @@ export default function Contact() {
                     class="rounded-md border border-white p-5 flex justify-center text-base text-edward hover:border-white"
                   >
                     <svg
-                      class="flex-shrink-0 w-6 h-6 text-gray-300"
+                      class="flex-shrink-0 w-6 h-6 text-white"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"

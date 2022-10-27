@@ -1,10 +1,13 @@
 import * as React from "react";
 import HeaderBar from "../components/Header/HeaderBar.js";
 import Footer from "../components/Footer/Footer.js";
-import StoryKeeper from "../images/storykeeper.png";
+import StoryKeeper from "../images/storynew.png";
 import RunBuddy from "../images/RunBuddy.png";
-import NowWereCookin from "../images/NowWereCookin.png";
+import WebQuiz from "../images/webquiz.png";
 import Horiseon from "../images/Horiseon.png";
+import ChloePat from "../images/candp.png";
+import Wicklow from "../images/wicklow.png";
+import { Animated } from "react-animated-css";
 
 const Portfolio = () => {
   return (
@@ -16,68 +19,86 @@ const Portfolio = () => {
 
       <HeaderBar />
 
-      <div class="py-10 bg-white">
+      <div class="py-10 bg-stone-200">
         <div class="max-w-xl mx-auto lg:max-w-7xl lg:px-8">
-          <div class="container mx-auto flex justify-center bg-white">
-            <h1 class="text-4xl text-center font-semibold text-stone-800">
-              Portfolio
-            </h1>
+          <head>
+            <link
+              rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+            ></link>
+          </head>
+
+          <div class="container mx-auto flex justify-center bg-stone-200">
+            <Animated
+              animationIn="fadeIn"
+              animationOut="fadeOut"
+              animationInDuration={3000}
+              animationOutDuration={3000}
+              isVisible={true}
+            >
+              <span class="block">
+                {" "}
+                <h1 class="text-4xl text-center font-semibold text-stone-800 bg-stone-200">
+                  Portfolio
+                </h1>
+              </span>
+            </Animated>
           </div>
           <dl class="mt-20 lg:space-y-0 grid grid-cols-2 lg:gap-8 gap-2 md:gap-0 space-y-0">
-            <div class="border hover:bg-gray-100 md:p-10 p-5 rounded-3xl">
+            <div class="border bg-stone-100 md:p-10 p-5">
               <dt class="">
-                <a href="#">
+                <a
+                  class="hover:opacity-80"
+                  href="https://storykeeper-book-app.herokuapp.com/"
+                >
                   <img src={StoryKeeper}></img>
+
+                  <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-stone-800 hover:opacity-80">
+                    The Story Keeper
+                  </p>
                 </a>
-
-                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-stone-800">
-                  The Story Keeper
-                </p>
               </dt>
             </div>
-            <div class="border hover:bg-gray-100 md:p-10 p-5 rounded-3xl">
+            <div class="border bg-stone-100 md:p-10 p-5">
               <dt class="">
-                <img src={RunBuddy}></img>
+                <a
+                  class="hover:opacity-80"
+                  href="https://chloebyrnes.github.io/runbuddy2/"
+                >
+                  <img src={RunBuddy}></img>
 
-                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-stone-800">
-                  Run Buddy
-                </p>
+                  <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-stone-800">
+                    Run Buddy
+                  </p>
+                </a>
               </dt>
             </div>
-            <div class="border hover:bg-gray-100 md:p-10 p-5 rounded-3xl">
+            <div class="border bg-stone-100 md:p-10 p-5">
               <dt class="">
-                <img src={Horiseon}></img>
+                <a
+                  class="hover:opacity-80"
+                  href="https://chloebyrnes.github.io/-Horiseon-Accessibility-Changes/"
+                >
+                  <img src={Horiseon}></img>
 
-                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-stone-800">
-                  Horiseon
-                </p>
+                  <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-stone-800">
+                    Horiseon
+                  </p>
+                </a>
               </dt>
             </div>
-            <div class="border hover:bg-gray-100 md:p-10 p-5 rounded-3xl">
+            <div class="border bg-stone-100 md:p-10 p-5">
               <dt class="">
-                <img src={NowWereCookin}></img>
+                <a
+                  class="hover:opacity-80"
+                  href="https://chloebyrnes.github.io/web-quiz/"
+                >
+                  <img src={WebQuiz}></img>
 
-                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-stone-800">
-                  Now We're Cookin
-                </p>
-              </dt>
-            </div>
-            <div class="border hover:bg-gray-100 md:p-10 p-5 rounded-3xl">
-              <dt class="">
-                <img src={StoryKeeper}></img>
-
-                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-stone-800">
-                  The Story Keeper
-                </p>
-              </dt>
-            </div>
-            <div class="border hover:bg-gray-100 md:p-10 p-5 rounded-3xl">
-              <dt class="">
-                <img src={StoryKeeper}></img>
-
-                <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-stone-800">
-                  The Story Keeper
-                </p>
+                  <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-stone-800">
+                    Web Quiz
+                  </p>
+                </a>
               </dt>
             </div>
           </dl>

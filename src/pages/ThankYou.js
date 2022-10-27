@@ -27,7 +27,7 @@ const ThankYou = () => {
               animationOut="fadeOut"
               isVisible={true}
             >
-              <h1 class="text-4xl text-center font-semibold text-stone-800">
+              <h1 class="text-4xl text-center font-semibold text-gray-500">
                 Thank You!
               </h1>
             </Animated>

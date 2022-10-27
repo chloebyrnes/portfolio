@@ -5,8 +5,6 @@ import StoryKeeper from "../images/storynew.png";
 import RunBuddy from "../images/RunBuddy.png";
 import WebQuiz from "../images/webquiz.png";
 import Horiseon from "../images/Horiseon.png";
-import ChloePat from "../images/candp.png";
-import Wicklow from "../images/wicklow.png";
 import { Animated } from "react-animated-css";
 
 const Portfolio = () => {
@@ -38,7 +36,7 @@ const Portfolio = () => {
             >
               <span class="block">
                 {" "}
-                <h1 class="text-4xl text-center font-semibold text-stone-800 bg-stone-200">
+                <h1 class="text-4xl text-center font-semibold text-gray-500 bg-stone-200">
                   Portfolio
                 </h1>
               </span>
@@ -53,7 +51,7 @@ const Portfolio = () => {
                 >
                   <img src={StoryKeeper}></img>
 
-                  <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-stone-800 hover:opacity-80">
+                  <p class="text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-stone-800 hover:opacity-80">
                     The Story Keeper
                   </p>
                 </a>
@@ -67,7 +65,7 @@ const Portfolio = () => {
                 >
                   <img src={RunBuddy}></img>
 
-                  <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-stone-800">
+                  <p class="text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-stone-800">
                     Run Buddy
                   </p>
                 </a>
@@ -81,7 +79,7 @@ const Portfolio = () => {
                 >
                   <img src={Horiseon}></img>
 
-                  <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-stone-800">
+                  <p class="text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-stone-800">
                     Horiseon
                   </p>
                 </a>
@@ -95,7 +93,7 @@ const Portfolio = () => {
                 >
                   <img src={WebQuiz}></img>
 
-                  <p class="text-center mt-8 md:text-2xl text-lg leading-6 font-bold text-stone-800">
+                  <p class="text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-stone-800">
                     Web Quiz
                   </p>
                 </a>

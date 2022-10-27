@@ -127,6 +127,7 @@ export default function Contact() {
                         type="text"
                         name="firstName"
                         id="firstName"
+                        required
                         onChange={handleChange}
                         autocomplete="given-name"
                         class="py-3 px-4 block w-full shadow-sm text-stone-800 focus:outline-none bg-gray-100 rounded-md"
@@ -146,6 +147,7 @@ export default function Contact() {
                         type="text"
                         name="lastName"
                         id="lastName"
+                        required
                         onChange={handleChange}
                         autocomplete="family-name"
                         class="py-3 px-4 block w-full shadow-sm text-stone-800 focus:outline-none bg-gray-100 rounded-md"
@@ -165,6 +167,7 @@ export default function Contact() {
                         name="email"
                         type="email"
                         autocomplete="email"
+                        required
                         onChange={handleChange}
                         class="py-3 px-4 block w-full shadow-sm text-stone-800 focus:outline-none bg-gray-100 rounded-md"
                       />

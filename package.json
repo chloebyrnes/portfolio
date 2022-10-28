@@ -23,7 +23,8 @@
     "react": "^18.1.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-animated-css": "^1.2.1",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-download-link": "^2.3.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",

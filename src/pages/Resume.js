@@ -2,6 +2,7 @@ import * as React from "react";
 import HeaderBar from "../components/Header/HeaderBar.js";
 import Footer from "../components/Footer/Footer.js";
 import { Animated } from "react-animated-css";
+import ResumePdf from "../images/Resume.pdf";
 
 const Resume = () => {
   return (
@@ -33,6 +34,9 @@ const Resume = () => {
                 {" "}
                 <h1 class="text-4xl text-center font-semibold text-slate-400">
                   Resume
+                </h1>
+                <h1 class="text-2xl text-center font-semibold text-slate-400 hover:text-slate-200">
+                  <a href={ResumePdf}>Click here for PDF</a>
                 </h1>
               </span>
             </Animated>

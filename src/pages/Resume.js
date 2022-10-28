@@ -35,7 +35,7 @@ const Resume = () => {
                 <h1 class="text-4xl text-center font-semibold text-slate-400">
                   Resume
                 </h1>
-                <h1 class="text-2xl text-center font-semibold text-slate-400 hover:text-slate-200">
+                <h1 class="text-2xl text-center font-semibold text-stone-600 hover:text-stone-400">
                   <a href={ResumePdf}>Click here for PDF</a>
                 </h1>
               </span>

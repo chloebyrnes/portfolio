@@ -22,7 +22,7 @@ const index = () => {
       <HeaderBar />
       <div class="p-8"></div>
       <div class="flex justify-center">
-        <dt class="grid place-items-center pt-10 bg-stone-50 w-5/6 rounded-2xl">
+        <dt class="grid place-items-center md:pt-10 md:bg-stone-50 w-5/6 md:rounded-2xl">
           <h1 class="md:text-4xl text-2xl font-medium text-slate-400 tracking-tight md:space-y-2 pb-8">
             <Animated
               animationIn="fadeIn"

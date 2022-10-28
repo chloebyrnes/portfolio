@@ -45,7 +45,7 @@ const Portfolio = () => {
               </span>
             </Animated>
           </div>
-          <dl class="mt-20 lg:space-y-0 grid grid-cols-2 lg:gap-8 gap-2 md:gap-0 space-y-0 ">
+          <dl class="mt-20 lg:space-y-0 grid md:grid-cols-2 lg:gap-8 gap-2 md:gap-0 space-y-0 ">
             <div class="border bg-stone-100 md:p-10 p-5 rounded-lg">
               <dt class="">
                 <a

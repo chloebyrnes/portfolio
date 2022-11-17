@@ -30,7 +30,7 @@ const Portfolio = () => {
           </head>
 
           <dl class="mt-20 lg:space-y-0 grid md:grid-cols-2 lg:gap-8 gap-2 md:gap-0 space-y-0 ">
-            <div class="border bg-gray-100 md:p-10 p-5 rounded-lg">
+            <div class="animate-pulse border bg-gray-100 md:p-10 p-5 rounded-lg">
               <dt class="">
                 <a
                   class="hover:opacity-80"
@@ -38,7 +38,10 @@ const Portfolio = () => {
                 >
                   <img src={BookNook}></img>
 
-                  <p class="text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-gray-800 hover:opacity-80">
+                  <p class="rounded-xl text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-blue-900 bg-sky-200 hover:opacity-80">
+                    PROJECT 3
+                  </p>
+                  <p class="text-center mt-2 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-gray-800 hover:opacity-80">
                     BookNook
                   </p>
                 </a>

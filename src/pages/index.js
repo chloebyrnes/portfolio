@@ -2,6 +2,7 @@ import * as React from "react";
 import HeaderBar from "../components/Header/HeaderBar.js";
 import Footer from "../components/Footer/Footer.js";
 import AboutMe from "../images/Chloe.jpg";
+import BookNook from "../images/book-nook.png";
 
 const index = () => {
   return (
@@ -138,7 +139,7 @@ const index = () => {
             <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div class="flex-shrink-0">
                 <img
-                  class="h-48 w-full object-cover"
+                  class="opacity-50 h-48 w-full object-cover"
                   src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
                   alt=""
                 ></img>{" "}
@@ -159,17 +160,17 @@ const index = () => {
               </div>
             </div>
 
-            <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-              <div class="flex-shrink-0">
-                <img
-                  class="h-48 w-full object-cover"
-                  src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
-                  alt=""
-                ></img>{" "}
-              </div>
-              <div class="flex flex-1 flex-col justify-between bg-white p-6">
-                <div class="flex-1">
-                  <a href="#" class="mt-2 block">
+            <a href="#" class="animate-pulse hover:opacity-75">
+              <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
+                <div class="flex-shrink-0">
+                  <img
+                    class="h-48 w-full object-cover"
+                    src={BookNook}
+                    alt=""
+                  ></img>{" "}
+                </div>
+                <div class="flex flex-1 flex-col justify-between bg-white p-6">
+                  <div class="flex-1">
                     <p class="text-xl font-semibold text-gray-900">BookNook</p>
                     <p class="mt-3 text-sm text-gray-500">
                       This application is designed to provide a platform and
@@ -182,15 +183,15 @@ const index = () => {
                       profile page where you can save books, have reading goals
                       for your child and add friends.
                     </p>
-                  </a>
+                  </div>
                 </div>
               </div>
-            </div>
+            </a>
 
             <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div class="flex-shrink-0">
                 <img
-                  class="h-48 w-full object-cover"
+                  class="opacity-50 h-48 w-full object-cover"
                   src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
                   alt=""
                 ></img>{" "}

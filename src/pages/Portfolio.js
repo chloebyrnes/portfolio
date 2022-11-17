@@ -12,7 +12,7 @@ import { Animated } from "react-animated-css";
 
 const Portfolio = () => {
   return (
-    <div class="bg-stone-200">
+    <div class="bg-gray-50">
       <style>
         @import
         url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
@@ -20,7 +20,7 @@ const Portfolio = () => {
 
       <HeaderBar />
 
-      <div class="py-10 bg-stone-200">
+      <div class="pb-10 bg-gray-50">
         <div class="max-w-xl mx-auto lg:max-w-7xl lg:px-8">
           <head>
             <link
@@ -29,24 +29,8 @@ const Portfolio = () => {
             ></link>
           </head>
 
-          <div class="container mx-auto flex justify-center bg-stone-200">
-            <Animated
-              animationIn="fadeIn"
-              animationOut="fadeOut"
-              animationInDuration={3000}
-              animationOutDuration={3000}
-              isVisible={true}
-            >
-              <span class="block">
-                {" "}
-                <h1 class="text-4xl text-center font-semibold text-slate-400 bg-stone-200">
-                  Portfolio
-                </h1>
-              </span>
-            </Animated>
-          </div>
           <dl class="mt-20 lg:space-y-0 grid md:grid-cols-2 lg:gap-8 gap-2 md:gap-0 space-y-0 ">
-            <div class="border bg-stone-100 md:p-10 p-5 rounded-lg">
+            <div class="border bg-gray-100 md:p-10 p-5 rounded-lg">
               <dt class="">
                 <a
                   class="hover:opacity-80"
@@ -54,13 +38,13 @@ const Portfolio = () => {
                 >
                   <img src={StoryKeeper}></img>
 
-                  <p class="text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-stone-800 hover:opacity-80">
-                    The Story Keeper
+                  <p class="text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-gray-800 hover:opacity-80">
+                    BookNook
                   </p>
                 </a>
               </dt>
             </div>
-            <div class="border rounded-lg bg-stone-100 md:p-10 p-5">
+            <div class="border rounded-lg bg-gray-100 md:p-10 p-5">
               <dt class="">
                 <a
                   class="hover:opacity-80"
@@ -68,13 +52,13 @@ const Portfolio = () => {
                 >
                   <img src={RunBuddy}></img>
 
-                  <p class="text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-stone-800">
+                  <p class="text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-gray-800 hover:opacity-80">
                     Run Buddy
                   </p>
                 </a>
               </dt>
             </div>
-            <div class="border rounded-lg bg-stone-100 md:p-10 p-5">
+            <div class="border rounded-lg bg-gray-100 md:p-10 p-5">
               <dt class="">
                 <a
                   class="hover:opacity-80"
@@ -82,13 +66,13 @@ const Portfolio = () => {
                 >
                   <img src={Horiseon}></img>
 
-                  <p class="text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-stone-800">
+                  <p class="text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-gray-800 hover:opacity-80">
                     Horiseon
                   </p>
                 </a>
               </dt>
             </div>
-            <div class="border rounded-lg bg-stone-100 md:p-10 p-5">
+            <div class="border rounded-lg bg-gray-100 md:p-10 p-5">
               <dt class="">
                 <a
                   class="hover:opacity-80"
@@ -96,29 +80,29 @@ const Portfolio = () => {
                 >
                   <img src={WebQuiz}></img>
 
-                  <p class="text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-stone-800">
+                  <p class="text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-gray-800 hover:opacity-80">
                     Web Quiz
                   </p>
                 </a>
               </dt>
             </div>
 
-            <div class="border rounded-lg bg-stone-100 md:p-10 p-5">
+            <div class="border bg-gray-100 md:p-10 p-5 rounded-lg">
               <dt class="">
                 <a
                   class="hover:opacity-80"
-                  href="https://kristafrancis.github.io/now-were-cookin/"
+                  href="https://storykeeper-book-app.herokuapp.com/"
                 >
-                  <img src={NowWereCookin}></img>
+                  <img src={StoryKeeper}></img>
 
-                  <p class="text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-stone-800">
-                    Now We're Cookin
+                  <p class="text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-gray-800 hover:opacity-80">
+                    The Story Keeper
                   </p>
                 </a>
               </dt>
             </div>
 
-            <div class="border rounded-lg bg-stone-100 md:p-10 p-5">
+            <div class="border rounded-lg bg-gray-100 md:p-10 p-5">
               <dt class="">
                 <a
                   class="hover:opacity-80"
@@ -126,7 +110,7 @@ const Portfolio = () => {
                 >
                   <img src={TechBlog}></img>
 
-                  <p class="text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-stone-800">
+                  <p class="text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-gray-800 hover:opacity-80">
                     The Tech Blog
                   </p>
                 </a>

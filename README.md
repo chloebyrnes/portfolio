@@ -13,9 +13,10 @@ You can also download a PDF of their resume, click the links in their portfolio,
 
 ## Link
 
-- Website link (deployed through Netlify): [Click here](https://willowy-snickerdoodle-b6ef03.netlify.app/)
+- Website link (deployed through Netlify): [Click here](chloebyrnes.netlify.app)
 
 ## Screenshots
+
 <b>
 Website has been updated, new screenshots will be available soon.
 </b>

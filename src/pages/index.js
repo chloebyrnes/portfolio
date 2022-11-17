@@ -160,7 +160,10 @@ const index = () => {
               </div>
             </div>
 
-            <a href="#" class="animate-pulse hover:opacity-75">
+            <a
+              href="https://book-nook2.herokuapp.com/"
+              class="animate-pulse hover:opacity-75"
+            >
               <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
                 <div class="flex-shrink-0">
                   <img

@@ -6,7 +6,7 @@ import RunBuddy from "../images/RunBuddy.png";
 import WebQuiz from "../images/webquiz.png";
 import Horiseon from "../images/Horiseon.png";
 import TechBlog from "../images/techblog.png";
-import NowWereCookin from "../images/NowWereCookin.png";
+import BookNook from "../images/book-nook.png";
 
 import { Animated } from "react-animated-css";
 
@@ -34,9 +34,9 @@ const Portfolio = () => {
               <dt class="">
                 <a
                   class="hover:opacity-80"
-                  href="https://storykeeper-book-app.herokuapp.com/"
+                  href="https://book-nook2.herokuapp.com/"
                 >
-                  <img src={StoryKeeper}></img>
+                  <img src={BookNook}></img>
 
                   <p class="text-center mt-8 md:text-2xl text-gray-500 text-lg leading-6 font-bold text-gray-800 hover:opacity-80">
                     BookNook

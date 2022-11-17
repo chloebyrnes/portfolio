@@ -2,7 +2,6 @@ import * as React from "react";
 import HeaderBar from "../components/Header/HeaderBar.js";
 import Footer from "../components/Footer/Footer.js";
 import { Animated } from "react-animated-css";
-import Logo from "../images/Logo.png";
 
 const ThankYou = () => {
   return (

@@ -1,9 +1,6 @@
 import * as React from "react";
 import HeaderBar from "../components/Header/HeaderBar.js";
 import Footer from "../components/Footer/Footer.js";
-import About from "../components/About/About.js";
-import AnchorLink from "react-anchor-link-smooth-scroll";
-import { Animated } from "react-animated-css";
 import AboutMe from "../images/Chloe.jpg";
 
 const index = () => {

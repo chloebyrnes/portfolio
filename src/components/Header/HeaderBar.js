@@ -1,6 +1,5 @@
 import * as React from "react";
-import Header from "./Header";
-import Logo from "../../images/Logo.png";
+import Logo from "../../images/logo.png";
 
 const IndexPage = () => {
   return (
